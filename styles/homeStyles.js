@@ -46,6 +46,12 @@ const styles = StyleSheet.create({
     fontSize: 18,
   },
 
+  cardRow: {
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    justifyContent: 'space-between',
+  },
+
   modalView: {
     margin: 20,
     backgroundColor: 'white',
@@ -99,9 +105,9 @@ const styles = StyleSheet.create({
   },
 
 
-    logoutText: {
-      color: 'crimson',
-    },
+  logoutText: {
+    color: 'crimson',
+  },
 
   modalInput: {
     borderWidth: 1,
